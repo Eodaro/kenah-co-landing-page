@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PatreonIcon from '../components/PatreonIcon.astro'; //
+---
+<Layout title="Bridge | Kenah.co">
+  <main class="min-h-screen flex items-center justify-center">
+    <div class="text-center max-w-md mx-auto p-4">
+
+      <img src="https://i.imgur.com/nfZezvd.png" alt="Kenah" class="w-36 h-36 rounded-full object-cover mx-auto mb-6 border-2 border-slate">
+
+      <h1 class="font-display text-4xl text-heading-light">Kenah Benefield</h1>
+      <p class="text-text-muted mb-8">  Artist ⛯ Bodyworker</p>
+
+      <!-- Main Link Buttons -->
+      <div class="flex flex-col gap-4">
+        <a href="https://kenahfield.com" class="link-button" target="_blank">
+          Enter My Digital Garden →
+        </a>
+        <a href="https://kenah.voicenotes.com" class="link-button">
+          Voicenotes
+        </a>
+        <a href="https://scroll.kenah.co" class="link-button" target="_blank">
+  Scroll
+</a>
+        <a href="/blog" class="link-button">
+          Blog
+        </a>
+        <a href="/photos" class="link-button">
+          Book with me!
+        </a>
+      </div>
+
+      <!-- Social Media Icons (Moved to the correct position) -->
+      <div class="flex justify-center gap-6 my-8">
+  <a href="https://youtube.com/@kenah" target="_blank" class="text-text-secondary hover:text-text-primary transition-colors" aria-label="Youtube">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+  </a>
+  <a href="https://x.com/kenahfield" target="_blank" class="text-text-secondary hover:text-text-primary transition-colors" aria-label="Twitter X">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.627l-5.21-6.815-6.041 6.815h-3.308l7.73-8.805-8.335-10.69h6.785l4.506 5.894 5.631-5.894zm-1.421 17.52h2.25l-10.43-14.26h-2.42l10.6 14.26z"/></svg>
+  </a>
+ <a href="https://patreon.com/kenah" target="_blank" class="text-text-secondary hover:text-text-primary transition-colors" aria-label="Patreon">
+  <PatreonIcon />
+</a>
+</div>
+
+      <!-- Bottom Navigation -->
+      <nav class="mt-8 pt-6 border-t border-slate/20">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+          <a href="/about" class="nav-link">About</a>
+        </div>
+      </nav>
+
+    </div>
+  </main>
+</Layout>

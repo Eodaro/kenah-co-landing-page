@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary;
+  }
+  a {
+    @apply text-accent-blue hover:text-accent-blue/80;
+  }
+}
+
+@layer components {
+  .link-button {
+  @apply block w-full text-center p-4 border-2 border-accent-blue rounded-lg text-accent-blue hover:bg-accent-blue hover:text-background transition-colors duration-200;
+}
+  .nav-link {
+    @apply text-text-secondary hover:text-text-primary transition-colors;
+  }
+}
