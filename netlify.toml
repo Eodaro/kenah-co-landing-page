@@ -1,0 +1,11 @@
+# This file overrides the settings in the Netlify UI.
+
+[build]
+  # This tells Netlify where your project's code is.
+  base = "apparent-asteroid"
+
+  # This is the command to run inside the 'base' directory.
+  command = "npm run build"
+
+  # This is the folder that gets published, relative to the 'base' directory.
+  publish = "dist"
